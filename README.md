@@ -21,3 +21,19 @@
 -> Diagnostics
 -> Error Handling
 -> HMR - Hot Reloading
+
+
+# Folder Structure for this project
+
+ Header
+  - logo
+  - nav items
+ Body
+  - search
+  - restaurant container
+      - restaurant cards
+           - img
+           - name of the restaurant, start rating, cuisine, time for delivery
+ Footer
+  - copyright
+  - links

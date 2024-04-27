@@ -47,7 +47,7 @@
   padding: 6px;
 }
 
-.rest-cards:hover{
+.rest-cards:hover {
   border: 1px solid #ccc;
   transition: all 5ms ease-in-out;
   width: 200px;
@@ -56,8 +56,13 @@
   cursor: pointer;
 }
 
-.rest-container{
+.rest-container {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
+}
+
+.filter-btn {
+  padding: 6px 10px;
+  cursor: pointer;
 }
