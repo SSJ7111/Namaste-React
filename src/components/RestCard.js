@@ -3,9 +3,9 @@ import { CDN_URL } from "../utils/constants";
 const RestCard = (props) => {
   const { restData } = props;
 
-  const { cloudinaryImageId, name, cuisines, avgRating, costForTwo } =
+  const { cloudinaryImageId, name, cuisines, avgRating, costForTwo, sla } =
     restData?.info;
-    
+
   return (
     <div className="rest-cards">
       <div className="card">
@@ -21,6 +21,7 @@ const RestCard = (props) => {
           <h4>{cuisines.join(", ")}</h4>
           <h5>{avgRating} stars</h5>
           <h5>{costForTwo}</h5>
+          <h5>{sla?.slaString}</h5>
         </div>
       </div>
     </div>
